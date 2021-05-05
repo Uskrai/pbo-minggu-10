@@ -1,5 +1,6 @@
 package com.github.uskrai.pbominggu10.factorymethod.makanan;
 
 public enum JenisMakanan {
-    KOLAK
+  BAKSO,
+  GORENGAN
 }
