@@ -1,4 +1,7 @@
-package PBO_Tugas;
+package com.github.uskrai.pbominggu10.abstractfactory;
+
+import com.github.uskrai.pbominggu10.abstractfactory.makanan.MakananFactory;
+import com.github.uskrai.pbominggu10.abstractfactory.minuman.MinumanFactory;
 
 public class FactoryProduksi {
     public static final String PILIH_MAKANAN = "Memilih Makanan";

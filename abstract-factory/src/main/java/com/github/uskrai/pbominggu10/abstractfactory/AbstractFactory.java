@@ -1,8 +1,11 @@
 package com.github.uskrai.pbominggu10.abstractfactory;
 
-public abstract class AbstractFactory {
+import com.github.uskrai.pbominggu10.abstractfactory.makanan.Makanan;
+import com.github.uskrai.pbominggu10.abstractfactory.minuman.Minuman;
+
+public interface AbstractFactory {
     
-    abstract Makanan getMakanan(String makanan);
-    abstract Minuman getMinuman(String minuman);
+    Makanan getMakanan(String makanan);
+    Minuman getMinuman(String minuman);
     
 }
